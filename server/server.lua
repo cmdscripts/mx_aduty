@@ -1,4 +1,4 @@
-ESX = exports['es_extended']:getSharedObject()
+local ESX = exports['es_extended']:getSharedObject()
 
 ESX.RegisterServerCallback('mx_aduty:getValues', function(source, cb)
     local source = source
